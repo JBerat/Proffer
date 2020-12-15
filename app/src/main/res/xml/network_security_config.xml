@@ -3,7 +3,7 @@
 
     <base-config cleartextTrafficPermitted="true" />
     <domain-config cleartextTrafficPermitted="true">
-        <domain includeSubdomains="true"> https://pxralert.ozdemircibaris.xyz/api/v1/</domain>
+        <domain includeSubdomains="true"> https://proffer-api-scu.herokuapp.com/</domain>
     </domain-config>
 
 </network-security-config>
