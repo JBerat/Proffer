@@ -3,4 +3,11 @@
 
     <string name="facebook_app_id">3818628174828008</string>
     <string name="fb_login_protocol_scheme">fb3818628174828008</string>
+    <string name="title_activity_main_page">MainActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_homePage">Anasayfa</string>
+    <string name="title_profile">Profil</string>
+
 </resources>

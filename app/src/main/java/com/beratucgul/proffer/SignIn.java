@@ -257,7 +257,7 @@ public class SignIn extends AppCompatActivity {
 
                                     Log.d("DENEME", response.body().status);
 
-                                    Intent intent = new Intent(SignIn.this, HomePage.class);
+                                    Intent intent = new Intent(SignIn.this, MainPage.class);
                                     startActivity(intent);
 
 
@@ -327,7 +327,7 @@ public class SignIn extends AppCompatActivity {
 
                 if(response.body().status.equals("success")){
 
-                    Intent intent = new Intent(SignIn.this, HomePage.class);
+                    Intent intent = new Intent(SignIn.this, MainPage.class);
                     startActivity(intent);
 
                     Log.d(" Kullanıcı Girişi Başarılı ",response.message());
