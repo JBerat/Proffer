@@ -9,5 +9,7 @@
 
     <string name="title_homePage">Anasayfa</string>
     <string name="title_profile">Profil</string>
+    <string name="title_ilanlar">İlanlar</string>
+    <string name="title_rehber">Rehber</string>
 
 </resources>

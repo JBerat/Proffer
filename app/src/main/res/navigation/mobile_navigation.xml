@@ -15,6 +15,14 @@
         android:id="@+id/navigation_profile"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/navigation_posts"
+        android:label="@string/title_ilanlar"
+        tools:layout="@layout/fragment_posts" />
+    <fragment
+        android:id="@+id/navigation_guide"
+        android:label="@string/title_rehber"
+        tools:layout="@layout/fragment_guide" />
 
 
 </navigation>

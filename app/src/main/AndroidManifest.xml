@@ -12,9 +12,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Proffer">
+        <activity android:name=".FirmSignUp"></activity>
+        <activity android:name=".FirmSignIn" />
         <activity
             android:name=".MainPage"
-            android:label="@string/title_activity_main_page"></activity>
+            android:label="@string/title_activity_main_page" />
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
@@ -44,7 +46,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SignUp" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

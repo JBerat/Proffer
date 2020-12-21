@@ -3,7 +3,9 @@ package com.beratucgul.proffer;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.beratucgul.proffer.fragments.GuideFragment;
 import com.beratucgul.proffer.fragments.HomeFragment;
+import com.beratucgul.proffer.fragments.PostsFragment;
 import com.beratucgul.proffer.fragments.ProfileFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -64,6 +66,12 @@ public class MainPage extends AppCompatActivity {
                     break;
                 case R.id.navigation_profile:
                     fragment = new ProfileFragment();
+                    break;
+                case R.id.navigation_posts:
+                    fragment = new PostsFragment();
+                    break;
+                case R.id.navigation_guide:
+                    fragment = new GuideFragment();
                     break;
 
             }
